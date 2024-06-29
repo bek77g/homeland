@@ -29,6 +29,8 @@ const LoginForm = () => {
 
 			navigate('/');
 			window.location.reload();
+
+			return;
 		}
 
 		alert('Неверный логин или пароль');
