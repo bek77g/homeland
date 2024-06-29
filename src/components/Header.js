@@ -10,7 +10,7 @@ const Header = () => {
 	};
 
 	return (
-		<header className=' header top-0 py-6 mb-12 border-b bg-white lg:bg-transparent lg:backdrop-blur w-full fixed'>
+		<header className='header top-0 left-0 right-0 py-6 mb-12 border-b bg-white lg:bg-transparent lg:backdrop-blur w-full fixed'>
 			<div className='container mx-auto flex items-center justify-between'>
 				<Link to='/' className='h-[24px]'>
 					<img src={Logo} alt='' />
